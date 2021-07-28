@@ -1,0 +1,7 @@
+.img-grayscale{
+    filter: grayscale(100%);
+}
+.circle-img-size{
+    width: 180px;
+    height: 180px;
+}
