@@ -9,6 +9,9 @@ body{
     width: 180px;
     height: 180px;
 }
+.text-warning{
+    color: #e05532 !important;
+}
 .btn-warning {
     color: #fff !important;
     background-color: #E76F51 !important;
@@ -27,11 +30,23 @@ body{
     background-color: #e05532 !important;
     border-color: #e05532 !important;
 }
+.btn-outline-warning:hover {
+    color: #fff !important;
+    background-color: #e05532 !important;
+    border-color: #e05532 !important;
+}
+.btn-outline-warning {
+    color: #e05532 !important;
+    border-color: #e05532 !important;
+}
 .nav-link:focus, .nav-link:hover {
     color: #e05532 !important;
 }
 .nav-link{
     color: #fff !important;
+}
+.border-graywhite{
+    border-color: #D5E5FB !important;
 }
 .heading{
     margin-bottom: 65px;
@@ -40,6 +55,7 @@ body{
     font-size: 48px;
     font-weight: 600;
     color: #000;
+    text-align: center;
 }
 .heading-subtitle{
     font-size: 14px;
@@ -83,3 +99,90 @@ header{
  #featured{
      padding: 80px 0;
  }
+
+ /* latest news */
+ .latest-news{}
+ .latest-news .card-title{
+     color: #18191F;
+     font-size: 28px;
+     font-weight: 600;
+ }
+ .latest-news .card-text{
+     color: #6C6C6C;
+     font-size: 16px;
+     font-weight: 400;
+ }
+ .latest-news-card{
+     margin-bottom: 100px;
+ }
+ /* reviews section */
+ .reviews{
+     margin-bottom: 100px;
+ }
+ .reviews .card-text{
+     color: #6C6C6C;
+     font-size: 16px;
+     font-weight: 400;
+ }
+ .reviews .reviewer-name{
+     color: #23A6F0;
+     font-size: 16px;
+     font-weight: 600;
+ }
+ .reviews .reviewer-designation{
+     color: #252B42;
+     font-size: 16px;
+     font-weight: 600;
+ }
+ /* FAQ Section */
+ .faq{
+     margin-bottom: 100px;
+ }
+ .faq .accordion-button{
+     font-size: 20px;
+     font-weight: 500;
+     color: #383838 !important;
+     box-shadow: none;
+ }
+ .faq .accordion-body{
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 28px;
+     color: #7E848C !important;
+ }
+ .faq .accordion-button:focus {
+    border-color: #86b7fe;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #fff;
+}
+/* accessories */
+.accessories{
+    margin-bottom: 100px;
+}
+
+/* footer */
+footer{
+    background-color: #0B0D17;
+    padding: 70px 0;
+    margin-top: 100px;
+}
+footer li a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+footer li a:hover{
+    color: #E76F51 !important;
+}
+footer h3{
+    color: #D9DBE1;
+    font-size: 18px;
+    font-weight: 500;
+}
+footer p{
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 400;
+}

@@ -10,4 +10,10 @@
         content: '';
         display: none;
     }
+    .latest-news .card-title{
+        font-size: 25px;
+    }
+    .latest-news .card-text{
+        font-size: 14px;
+    }
 }
