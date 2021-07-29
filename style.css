@@ -45,6 +45,9 @@ body{
 .nav-link{
     color: #fff !important;
 }
+.navbar-light .navbar-toggler-icon {
+    background-image: url(./images/navbar-icon.svg);
+}
 .border-graywhite{
     border-color: #D5E5FB !important;
 }
