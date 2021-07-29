@@ -1,0 +1,13 @@
+/* mobile device */
+@media (max-width: 768px){
+    .banner h2{
+        font-size: 36px;
+    }
+    .heading-title{
+        font-size: 36px;
+    }
+    .heading-subtitle::after{
+        content: '';
+        display: none;
+    }
+}

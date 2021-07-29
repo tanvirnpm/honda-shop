@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .img-grayscale{
     filter: grayscale(100%);
 }
@@ -5,3 +9,77 @@
     width: 180px;
     height: 180px;
 }
+.btn-warning {
+    color: #fff !important;
+    background-color: #E76F51 !important;
+    border-color: #E76F51 !important;
+}
+.btn {
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 16px;
+}
+.btn:hover {
+    color: #212529;
+}
+.btn-warning:hover {
+    color: #fff !important;
+    background-color: #e05532 !important;
+    border-color: #e05532 !important;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #e05532 !important;
+}
+.nav-link{
+    color: #fff !important;
+}
+.heading{
+    margin-bottom: 65px;
+}
+.heading-title{
+    font-size: 48px;
+    font-weight: 600;
+    color: #000;
+}
+.heading-subtitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: #E76F51;
+}
+.heading-subtitle::after{
+    content: '';
+    width: 60px;
+    height: 2px;
+    background-color: #E76F51;
+    display: block;
+    margin: 5px auto;
+}
+/* header section */
+header{
+    background-color: #264653;
+}
+.banner{}
+.banner h6{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+}
+.banner h2{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 600;
+}
+.banner p{
+    font-size: 16px;
+    color: #E0E0E0;
+    font-weight: 300;
+}
+.banner-img-bg{
+    background-image: url(./images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: top 40px right;
+}
+/* featured bike */
+ #featured{
+     padding: 80px 0;
+ }
